@@ -20,7 +20,7 @@ function App() {
     <section className="menu section">
       <div className="title">
         <h2>Moroccan food menu</h2>
-        <div className="underline"></div>
+       
       </div>
       <Categories categories={categories} filterItems={filterItems} />
       <Menu items={ menuItems}/>
